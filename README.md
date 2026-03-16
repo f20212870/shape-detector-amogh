@@ -133,4 +133,15 @@ Your final submission should include:
 - Brief documentation of your approach (comments in code)
 - Test results or performance notes (optional)
 
+## Approach
+
+The shape detection algorithm follows a computer vision pipeline:
+
+1. Convert image to grayscale
+2. Perform edge detection using Sobel filters
+3. Apply thresholding to isolate shapes
+4. Use connected component labeling to detect blobs
+5. Extract contours and approximate polygons
+6. Classify shapes based on geometric properties
+
 
